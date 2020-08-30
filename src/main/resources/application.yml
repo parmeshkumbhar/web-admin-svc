@@ -1,0 +1,12 @@
+
+server:
+   port: 8483
+
+#dataSource
+spring: 
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver   
+    url: "jdbc:mysql://localhost:3306/web_admin"
+    username: "root"
+    password: "root"
+    
